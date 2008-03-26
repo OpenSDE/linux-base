@@ -1,0 +1,8 @@
+# Reference: http://refspecs.linux-foundation.org/LSB_3.2.0/LSB-Languages/LSB-Languages/python.html
+
+X python
+
+# needed by python, but desirable anyway
+X openssl
+X readline
+X gdbm
