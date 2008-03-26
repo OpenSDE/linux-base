@@ -10,7 +10,7 @@ X bash
 
 # commands
 X coreutils
-X util-linux
+X util-linux-ng
 X grep
 X sed
 X gawk
@@ -21,3 +21,6 @@ X findutils
 X time
 X tar
 X bzip2
+
+# needed by util-linux-ng
+X e2fsprogs
