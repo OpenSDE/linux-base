@@ -2,5 +2,13 @@
 X linux26
 X module-init-tools
 
+X udev
+
+# at opensde-core anyway :-(
+#X e2fsprogs
+
 # x86/x86-64 boot loader
 X syslinux
+
+# needed by syslinux
+X nasm
