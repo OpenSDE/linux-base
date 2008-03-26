@@ -9,3 +9,6 @@ X gcc
 # linux kernel headers
 #
 X linux-header
+
+# needed by glibc
+X gzip
