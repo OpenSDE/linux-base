@@ -1,0 +1,11 @@
+# libraries required by LSB-Core-generic
+#
+X glibc
+X zlib
+X ncurses
+X pam
+X gcc
+
+# linux kernel headers
+#
+X linux-header
