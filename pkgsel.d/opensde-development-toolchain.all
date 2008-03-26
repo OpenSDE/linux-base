@@ -1,0 +1,20 @@
+#X gcc
+X binutils
+X bison
+X flex
+X patch
+X make
+
+X autoconf
+X automake
+X libtool
+
+# really minimal?
+X m4
+X diffutils
+
+# wanted for faster builds
+X ccache
+
+# needed by binutils
+X texinfo
