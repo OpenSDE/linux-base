@@ -1,0 +1,23 @@
+# structure
+X fhs
+
+# files
+X sysfiles
+X iana-etc
+
+# shell
+X bash
+
+# commands
+X coreutils
+X util-linux
+X grep
+X sed
+X gawk
+X mktemp
+
+# not that basic, but needed by our framework to enter stage 2
+X findutils
+X time
+X tar
+X bzip2
