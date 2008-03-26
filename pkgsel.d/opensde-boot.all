@@ -1,5 +1,6 @@
 # linux kernel
 X linux26
+X module-init-tools
 
 # x86/x86-64 boot loader
 X syslinux
