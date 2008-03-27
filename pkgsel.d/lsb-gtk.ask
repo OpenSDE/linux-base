@@ -1,0 +1,9 @@
+# Description: Desktop/GTK Toolkit
+
+X glib
+X gtk+
+X atk
+X pango
+
+# needed by gtk+
+X cairo
