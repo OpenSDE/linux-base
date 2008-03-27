@@ -9,6 +9,9 @@ X autoconf
 X automake
 X libtool
 
+# needed to build Xorg
+X pkgconfig
+
 # really minimal?
 X m4
 X diffutils
