@@ -7,3 +7,38 @@ X libxext
 X libice
 X libsm
 X libxi
+
+# needed by libx11
+X xproto
+X xextproto
+X xtrans
+X libxcb
+X kbproto
+X inputproto
+
+# needed by libxcb
+X xcb-proto
+X libpthread-stubs
+X libxau
+X libxslt
+
+# needed by libxslt
+X libxml
+
+# libxext failed because x11.pc wanted it, odd.
+X libxdmcp
+
+# needed by mesa
+X libdrm
+X gccmakedep
+X glproto
+X xf86vidmodeproto
+X libxfixes
+X libxdamage
+X libxxf86vm
+X expat
+
+# needed by libxfixes
+X fixesproto
+# needed by libxdamage
+X damageproto
