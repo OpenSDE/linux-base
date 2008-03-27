@@ -1,0 +1,8 @@
+# Description: Desktop/Graphics/Extra
+
+X fontconfig
+X libpng
+X libjpeg
+X libxrender
+X freetype
+X libxft
