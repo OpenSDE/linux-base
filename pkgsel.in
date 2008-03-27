@@ -14,15 +14,8 @@
 
 # generate pkgsel.awk file
 #
-if [ ! -s $cfgtmpdir/$target.pkgsel.awk ]; then
-	cat <<-EOT > $cfgtmpdir/$target.pkgsel.awk
-	# Generated for target/$target/pkgsel.d/*.all
-	#
+if [ -s "$cfgtmpdir/$target.pkgsel.in" ]; then
+	. "$cfgtmpdir/$target.pkgsel.in"
 
-	EOT
-
-	lib/sde-config/pkgsel2awk.sh $( ls -1d target/$target/pkgsel.d/*.all ) \
-		>> $cfgtmpdir/$target.pkgsel.awk
+	pkgfilter awk -f $cfgtmpdir/$target.pkgsel.awk
 fi
-	
-pkgfilter awk -f $cfgtmpdir/$target.pkgsel.awk

@@ -13,3 +13,17 @@
 # --- SDE-COPYRIGHT-NOTE-END ---
 
 #Description: LSB Compliant Base
+
+if [ ! -s "$cfgtmpdir/$target.config.in" ]; then
+	# render files just once
+	lib/sde-config/pkgseldir_compile.sh \
+			"CFGTEMP_TRG_LSB_PKGSEL" "SDECFG_TRG_LSB_" \
+			"$cfgtmpdir/$target." \
+			"target/$target/pkgsel.d"
+fi
+
+if [ -s "$cfgtmpdir/$target.config.in" ]; then
+	. "$cfgtmpdir/$target.config.in"
+else
+	comment "--- Failed to process pkgsel.d ---"
+fi
