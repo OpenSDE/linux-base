@@ -1,0 +1,9 @@
+# Description: Desktop/Graphics
+
+X libx11
+X libxt
+X mesa
+X libxext
+X libice
+X libsm
+X libxi
