@@ -6,3 +6,6 @@ X libjpeg
 X libxrender
 X freetype
 X libxft
+
+# nneded by libxrender
+X renderproto
