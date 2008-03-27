@@ -1,3 +1,5 @@
+# Description: Languages/Perl Interpreter
 # Reference: http://refspecs.linux-foundation.org/LSB_3.2.0/LSB-Languages/LSB-Languages/perl.html
+# Default: 1
 
 X perl

@@ -1,4 +1,6 @@
+# Description: Languages/Python Interpreter
 # Reference: http://refspecs.linux-foundation.org/LSB_3.2.0/LSB-Languages/LSB-Languages/python.html
+# Default: 1
 
 X python
 
