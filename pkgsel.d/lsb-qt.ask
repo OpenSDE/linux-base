@@ -1,0 +1,14 @@
+# Description: Desktop/QT4 Toolkit
+
+X qt4
+
+# needed by qt4
+X libmng
+X libtiff
+
+# needed by qt4 but already at lsb-graphics-extra
+X libjpeg
+X libpng
+
+# needed by libmng
+X lcms
