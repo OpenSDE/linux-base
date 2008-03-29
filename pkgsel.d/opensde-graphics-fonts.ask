@@ -1,0 +1,17 @@
+# Description: Desktop/Fonts
+
+X font-bitstream
+X font-cursor-misc
+
+# needed by font-bitstream
+X mkfontscale
+X mkfontdir
+X bdftopcf
+
+# needed by bdftopcf
+X libxfont
+
+# needed by libxfont
+X fontcacheproto
+X fontsproto
+X libfontenc
