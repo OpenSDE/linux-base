@@ -19,4 +19,5 @@ X pygtk
 # Needed by PyGTK
 
 X pygobject
-X pycairo 
+X pycairo
+
