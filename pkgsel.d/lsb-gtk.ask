@@ -24,3 +24,6 @@ X cairo
 
 # needed by glib
 X gettext
+
+# needed by cairo
+X pixman
