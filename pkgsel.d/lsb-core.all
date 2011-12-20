@@ -33,6 +33,7 @@ X tzdata
 #needed by gcc
 X gmp
 X mpfr
+X libmpc
 X ppl
 X cloog-ppl
 X unzip
