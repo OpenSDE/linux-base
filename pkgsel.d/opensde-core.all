@@ -10,7 +10,7 @@ X bash
 
 # commands
 X coreutils
-X util-linux-ng
+X util-linux
 X grep
 X sed
 X gawk
